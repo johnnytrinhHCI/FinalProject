@@ -1,0 +1,121 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited, a:active, a:visited, a:focus {
+  text-decoration: none; color: black;
+}
+
+body {
+  font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+iframe {
+  width: 100%;
+  height: 1000px;
+
+}
+
+img {
+  width: 60%;
+  align-self: center;
+}
+
+.main-menu {
+  width: 100%;
+  height: 72px;
+  border-bottom: 2px solid #6495ED;
+}
+
+.main-menu-button {
+  border: none;
+  float: right;
+  margin-top: 24px;
+  height: 48px;
+  width: 16%;
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+#back {
+  float: left;
+}
+
+.main-menu-button:hover {
+  background-image: linear-gradient(to bottom, white, #87ebe7);
+}
+
+.link {
+  text-decoration: none;
+  text-decoration-color: black;
+}
+
+.main-page-wrapper {
+  width: 100%;
+}
+
+.po-wrapper {
+  float: left;
+  width: 35%;
+  height: 180px;
+  border: 2px solid #A8A8A8;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 20px;
+  padding-top: 120px;
+
+}
+
+.po-wrapper:hover {
+  border: 2px solid #6495ED;
+  color: #6495ED;
+
+}
+
+.textbox {
+  width: 85%;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.right-textbox {
+  float: left;
+}
+
+.left-textbox {
+  float: right;
+}
+#project-3 {
+  background-image: url('resources/ipod.jpg')
+}
+
+#project-2 {
+  background-image: url('resources/webframe.jpg')
+}
+
+#resume-div {
+  background-image: url("resources/resumepic.jpg")
+}
+
+#fun-bio-div {
+  background-image: url("resources/ski2.jpg")
+}
